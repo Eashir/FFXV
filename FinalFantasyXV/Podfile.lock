@@ -1,0 +1,12 @@
+PODS:
+  - SFFocusViewLayout (3.1.0)
+
+DEPENDENCIES:
+  - SFFocusViewLayout (~> 3.1)
+
+SPEC CHECKSUMS:
+  SFFocusViewLayout: 8524435eb57796adf3e7be1395c4e3786cd76dcc
+
+PODFILE CHECKSUM: e072ca0dd7254a0068ac500004874e9ae24852b0
+
+COCOAPODS: 1.1.1

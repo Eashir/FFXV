@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="iEN-ws-Sww">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Character Collection View Controller-->
+        <scene sceneID="4M9-5g-hbM">
+            <objects>
+                <collectionViewController id="pzV-1Z-b3F" customClass="CharacterCollectionViewController" customModule="FinalFantasyXV" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="RRp-bn-HdW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="CGq-fq-Mde">
+                            <size key="itemSize" width="375" height="161"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="characterCell" id="UE4-88-Pat" customClass="CharacterCollectionViewCell" customModule="FinalFantasyXV" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="161"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="161"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2bD-s6-AGq"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M56-20-clT">
+                                            <frame key="frameInset" minY="70" width="375" height="21"/>
+                                            <fontDescription key="fontDescription" name="KohinoorDevanagari-Regular" family="Kohinoor Devanagari" pointSize="20"/>
+                                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </view>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="2bD-s6-AGq" secondAttribute="trailing" id="JNd-dO-BCI"/>
+                                    <constraint firstItem="M56-20-clT" firstAttribute="centerY" secondItem="2bD-s6-AGq" secondAttribute="centerY" id="JdG-g2-cAB"/>
+                                    <constraint firstAttribute="trailingMargin" secondItem="M56-20-clT" secondAttribute="trailing" id="Jfu-f6-zeF"/>
+                                    <constraint firstAttribute="bottom" secondItem="2bD-s6-AGq" secondAttribute="bottom" id="Tpd-hw-Sfz"/>
+                                    <constraint firstItem="2bD-s6-AGq" firstAttribute="top" secondItem="UE4-88-Pat" secondAttribute="top" id="VIS-aH-dsw"/>
+                                    <constraint firstItem="2bD-s6-AGq" firstAttribute="leading" secondItem="UE4-88-Pat" secondAttribute="leading" id="dtL-OS-UpC"/>
+                                    <constraint firstItem="M56-20-clT" firstAttribute="leading" secondItem="UE4-88-Pat" secondAttribute="leadingMargin" id="mpf-xQ-q6e"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="characterImage" destination="2bD-s6-AGq" id="FNs-Kx-WGB"/>
+                                    <outlet property="characterName" destination="M56-20-clT" id="Fou-6o-wOB"/>
+                                    <segue destination="5lC-pn-jH5" kind="custom" identifier="FadeSegue" customClass="FadeSegue" customModule="FinalFantasyXV" id="A3o-Hp-GAu"/>
+                                </connections>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="pzV-1Z-b3F" id="UuX-pd-u0W"/>
+                            <outlet property="delegate" destination="pzV-1Z-b3F" id="CcC-CH-uhQ"/>
+                        </connections>
+                    </collectionView>
+                    <navigationItem key="navigationItem" id="oks-Ee-IfH"/>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xkR-rl-ORo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1901.5999999999999" y="-175.86206896551727"/>
+        </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="4tY-O7-GFM">
+            <objects>
+                <viewController id="5lC-pn-jH5" customClass="DetailViewController" customModule="FinalFantasyXV" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Lk8-b8-P2G"/>
+                        <viewControllerLayoutGuide type="bottom" id="1c7-Ch-cbZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dcT-bk-MLs">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="B9B-9A-c7j" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2717.5999999999999" y="-172.26386806596702"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Kyq-To-jdD">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="iEN-ws-Sww" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="DhN-wJ-F5x">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="pzV-1Z-b3F" kind="relationship" relationship="rootViewController" id="CsY-9F-3HR"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="T6A-3k-XZR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="962.39999999999998" y="-175.86206896551727"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		233E32EF071B2988BDB09044A260D473 /* SFFocusViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21CC291555D06E111848300ACC8AB32 /* SFFocusViewLayout.swift */; };
+		24F139AED91003DE11464C0960869EF8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
+		4E9C11F3A00F9AC9B8577E578A55EF46 /* Pods-FinalFantasyXV-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E5D4284DB80EB4F2A82EDCE4AD213D97 /* Pods-FinalFantasyXV-dummy.m */; };
+		6E44ED126076B202B003AAC7E28CAA38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		99D55DDBD4B3ADD7B81629CD2F54D27B /* SFFocusViewLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = F829BA6C0EC784A6C40F7E638AE39A76 /* SFFocusViewLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF7E0537A979A555A88D67AEDE98BBB0 /* SFFocusViewLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 581307F4E91745C178245AD05B1ED77B /* SFFocusViewLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDD3A92830C3C5448AD1D3C916E28DA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		C07DC4CA228E813445FDF0E837C5D251 /* SFFocusViewLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1799E93555831BC10DD5B7E48D52C8 /* SFFocusViewLayout-dummy.m */; };
+		CDA752698C29E31C890BF290E3665B8C /* Pods-FinalFantasyXV-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E00C3CD5B611E940F064219D2DB33E3B /* Pods-FinalFantasyXV-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B57D532D0A658E301854789EEF727BEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBEF195B5525A1FDF2241B6840AD7DB7;
+			remoteInfo = SFFocusViewLayout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01E11ACE9DBBABAB2F2576D34B2309D8 /* SFFocusViewLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SFFocusViewLayout.modulemap; sourceTree = "<group>"; };
+		11E5E170AD9ECE6645C43840870B242E /* Pods-FinalFantasyXV-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FinalFantasyXV-resources.sh"; sourceTree = "<group>"; };
+		17763D0815D591E7B4518A86DBFA7CE0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		581307F4E91745C178245AD05B1ED77B /* SFFocusViewLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SFFocusViewLayout-umbrella.h"; sourceTree = "<group>"; };
+		608647F481076DEDEA2AFC09D536A38B /* Pods-FinalFantasyXV-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FinalFantasyXV-acknowledgements.plist"; sourceTree = "<group>"; };
+		616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		84C049AFBC2B74D26F35296A1CE9EF2A /* Pods_FinalFantasyXV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FinalFantasyXV.framework; path = "Pods-FinalFantasyXV.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89FC826A9152FFF68FC7B14CF6D9C028 /* SFFocusViewLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SFFocusViewLayout.xcconfig; sourceTree = "<group>"; };
+		8E78C4FD42BC943590FEFE7F0E12C00C /* SFFocusViewLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SFFocusViewLayout-prefix.pch"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BBE33D1641EAC3E0F14C7A1BFF289849 /* Pods-FinalFantasyXV.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-FinalFantasyXV.modulemap"; sourceTree = "<group>"; };
+		CF49252A1D552D6BCDAAD9D3F49A7AFC /* Pods-FinalFantasyXV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FinalFantasyXV.release.xcconfig"; sourceTree = "<group>"; };
+		D08AFE847A36430971EB56B74B61520E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D519F676C957B09B99EBD43343B92C9E /* SFFocusViewLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SFFocusViewLayout.framework; path = SFFocusViewLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE283456C15D50E2B03D88205F2CB92D /* Pods-FinalFantasyXV-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FinalFantasyXV-frameworks.sh"; sourceTree = "<group>"; };
+		E00C3CD5B611E940F064219D2DB33E3B /* Pods-FinalFantasyXV-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FinalFantasyXV-umbrella.h"; sourceTree = "<group>"; };
+		E15588B9D731E11AD67F66356B5334AA /* Pods-FinalFantasyXV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FinalFantasyXV.debug.xcconfig"; sourceTree = "<group>"; };
+		E5D4284DB80EB4F2A82EDCE4AD213D97 /* Pods-FinalFantasyXV-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FinalFantasyXV-dummy.m"; sourceTree = "<group>"; };
+		F21CC291555D06E111848300ACC8AB32 /* SFFocusViewLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SFFocusViewLayout.swift; path = Source/SFFocusViewLayout.swift; sourceTree = "<group>"; };
+		F596BF4AF52DA8CEF1C3DA0B0060DA5E /* Pods-FinalFantasyXV-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FinalFantasyXV-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F829BA6C0EC784A6C40F7E638AE39A76 /* SFFocusViewLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SFFocusViewLayout.h; path = Source/SFFocusViewLayout.h; sourceTree = "<group>"; };
+		FF1799E93555831BC10DD5B7E48D52C8 /* SFFocusViewLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SFFocusViewLayout-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47110FF45FC2EAF6B556EA63AC9DE71F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E44ED126076B202B003AAC7E28CAA38 /* Foundation.framework in Frameworks */,
+				24F139AED91003DE11464C0960869EF8 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98C93E45A9827607CC72146F1A771644 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDD3A92830C3C5448AD1D3C916E28DA6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6EE98446B568159EE277B68FD442AF0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		50407E4BD78A0D42C9231B3EA01E579E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7D81609D3B9F7A223D5DCE279107369F /* SFFocusViewLayout */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5AB99EDF8B0E8FD064DBD9631376A73D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D97AAD8F0CC8ABBB831D27B8DBBF4EB /* Pods-FinalFantasyXV */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6D97AAD8F0CC8ABBB831D27B8DBBF4EB /* Pods-FinalFantasyXV */ = {
+			isa = PBXGroup;
+			children = (
+				D08AFE847A36430971EB56B74B61520E /* Info.plist */,
+				BBE33D1641EAC3E0F14C7A1BFF289849 /* Pods-FinalFantasyXV.modulemap */,
+				F596BF4AF52DA8CEF1C3DA0B0060DA5E /* Pods-FinalFantasyXV-acknowledgements.markdown */,
+				608647F481076DEDEA2AFC09D536A38B /* Pods-FinalFantasyXV-acknowledgements.plist */,
+				E5D4284DB80EB4F2A82EDCE4AD213D97 /* Pods-FinalFantasyXV-dummy.m */,
+				DE283456C15D50E2B03D88205F2CB92D /* Pods-FinalFantasyXV-frameworks.sh */,
+				11E5E170AD9ECE6645C43840870B242E /* Pods-FinalFantasyXV-resources.sh */,
+				E00C3CD5B611E940F064219D2DB33E3B /* Pods-FinalFantasyXV-umbrella.h */,
+				E15588B9D731E11AD67F66356B5334AA /* Pods-FinalFantasyXV.debug.xcconfig */,
+				CF49252A1D552D6BCDAAD9D3F49A7AFC /* Pods-FinalFantasyXV.release.xcconfig */,
+			);
+			name = "Pods-FinalFantasyXV";
+			path = "Target Support Files/Pods-FinalFantasyXV";
+			sourceTree = "<group>";
+		};
+		7D81609D3B9F7A223D5DCE279107369F /* SFFocusViewLayout */ = {
+			isa = PBXGroup;
+			children = (
+				F829BA6C0EC784A6C40F7E638AE39A76 /* SFFocusViewLayout.h */,
+				F21CC291555D06E111848300ACC8AB32 /* SFFocusViewLayout.swift */,
+				9BDBB0E8F29E43270A70548450D38F1E /* Support Files */,
+			);
+			name = SFFocusViewLayout;
+			path = SFFocusViewLayout;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				50407E4BD78A0D42C9231B3EA01E579E /* Pods */,
+				95A9A5569C8B69843ED9B7F82B4E9380 /* Products */,
+				5AB99EDF8B0E8FD064DBD9631376A73D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		95A9A5569C8B69843ED9B7F82B4E9380 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84C049AFBC2B74D26F35296A1CE9EF2A /* Pods_FinalFantasyXV.framework */,
+				D519F676C957B09B99EBD43343B92C9E /* SFFocusViewLayout.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BDBB0E8F29E43270A70548450D38F1E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				17763D0815D591E7B4518A86DBFA7CE0 /* Info.plist */,
+				01E11ACE9DBBABAB2F2576D34B2309D8 /* SFFocusViewLayout.modulemap */,
+				89FC826A9152FFF68FC7B14CF6D9C028 /* SFFocusViewLayout.xcconfig */,
+				FF1799E93555831BC10DD5B7E48D52C8 /* SFFocusViewLayout-dummy.m */,
+				8E78C4FD42BC943590FEFE7F0E12C00C /* SFFocusViewLayout-prefix.pch */,
+				581307F4E91745C178245AD05B1ED77B /* SFFocusViewLayout-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SFFocusViewLayout";
+			sourceTree = "<group>";
+		};
+		E6EE98446B568159EE277B68FD442AF0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */,
+				7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		27D3D6EF511626C32EFAB543EBDB37D8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDA752698C29E31C890BF290E3665B8C /* Pods-FinalFantasyXV-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACCC0103C5142F59CA1E1BF686080640 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF7E0537A979A555A88D67AEDE98BBB0 /* SFFocusViewLayout-umbrella.h in Headers */,
+				99D55DDBD4B3ADD7B81629CD2F54D27B /* SFFocusViewLayout.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8608F1E0ACB76D86A536198318B4475A /* Pods-FinalFantasyXV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA0F1D727C2D80707822C3B2E5855476 /* Build configuration list for PBXNativeTarget "Pods-FinalFantasyXV" */;
+			buildPhases = (
+				F9D895C5BA40AF222571636ED37EE7D5 /* Sources */,
+				98C93E45A9827607CC72146F1A771644 /* Frameworks */,
+				27D3D6EF511626C32EFAB543EBDB37D8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42D50615B95AF99F8E0CC1B0D369A353 /* PBXTargetDependency */,
+			);
+			name = "Pods-FinalFantasyXV";
+			productName = "Pods-FinalFantasyXV";
+			productReference = 84C049AFBC2B74D26F35296A1CE9EF2A /* Pods_FinalFantasyXV.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FBEF195B5525A1FDF2241B6840AD7DB7 /* SFFocusViewLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9E5FA8B972308E990F824E722A28650 /* Build configuration list for PBXNativeTarget "SFFocusViewLayout" */;
+			buildPhases = (
+				7D2D28B3B7AB6A2C31656C00784B58BD /* Sources */,
+				47110FF45FC2EAF6B556EA63AC9DE71F /* Frameworks */,
+				ACCC0103C5142F59CA1E1BF686080640 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SFFocusViewLayout;
+			productName = SFFocusViewLayout;
+			productReference = D519F676C957B09B99EBD43343B92C9E /* SFFocusViewLayout.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 95A9A5569C8B69843ED9B7F82B4E9380 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8608F1E0ACB76D86A536198318B4475A /* Pods-FinalFantasyXV */,
+				FBEF195B5525A1FDF2241B6840AD7DB7 /* SFFocusViewLayout */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D2D28B3B7AB6A2C31656C00784B58BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C07DC4CA228E813445FDF0E837C5D251 /* SFFocusViewLayout-dummy.m in Sources */,
+				233E32EF071B2988BDB09044A260D473 /* SFFocusViewLayout.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9D895C5BA40AF222571636ED37EE7D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E9C11F3A00F9AC9B8577E578A55EF46 /* Pods-FinalFantasyXV-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42D50615B95AF99F8E0CC1B0D369A353 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SFFocusViewLayout;
+			target = FBEF195B5525A1FDF2241B6840AD7DB7 /* SFFocusViewLayout */;
+			targetProxy = B57D532D0A658E301854789EEF727BEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12914D756594D15C6F2CA12FE5F89F1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2595A6B4DF95AC2F0428E15B77EE6730 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF49252A1D552D6BCDAAD9D3F49A7AFC /* Pods-FinalFantasyXV.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FinalFantasyXV/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FinalFantasyXV/Pods-FinalFantasyXV.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FinalFantasyXV;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		48F24FFB76B3CD46B82715F1DE4C7A29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89FC826A9152FFF68FC7B14CF6D9C028 /* SFFocusViewLayout.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SFFocusViewLayout/SFFocusViewLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SFFocusViewLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SFFocusViewLayout/SFFocusViewLayout.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SFFocusViewLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		89C4F3535E50477E077CF662BEB9B39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89FC826A9152FFF68FC7B14CF6D9C028 /* SFFocusViewLayout.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SFFocusViewLayout/SFFocusViewLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SFFocusViewLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SFFocusViewLayout/SFFocusViewLayout.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SFFocusViewLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E72E7977875C2D251FC62736BBDDC389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F398986E896D6D4FEBB2B004BCBFAD96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E15588B9D731E11AD67F66356B5334AA /* Pods-FinalFantasyXV.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FinalFantasyXV/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FinalFantasyXV/Pods-FinalFantasyXV.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FinalFantasyXV;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12914D756594D15C6F2CA12FE5F89F1B /* Debug */,
+				E72E7977875C2D251FC62736BBDDC389 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA0F1D727C2D80707822C3B2E5855476 /* Build configuration list for PBXNativeTarget "Pods-FinalFantasyXV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F398986E896D6D4FEBB2B004BCBFAD96 /* Debug */,
+				2595A6B4DF95AC2F0428E15B77EE6730 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9E5FA8B972308E990F824E722A28650 /* Build configuration list for PBXNativeTarget "SFFocusViewLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48F24FFB76B3CD46B82715F1DE4C7A29 /* Debug */,
+				89C4F3535E50477E077CF662BEB9B39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
